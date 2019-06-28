@@ -1,4 +1,4 @@
-Problem Statement - Conference Track Management
+#Problem Statement - Conference Track Management
 
 You are planning a big programming conference and have received many proposals which have passed the initial screen process but you're having trouble fitting them into the time constraints of the day -- there are so many possibilities! So you write a program to do it for you.
 
@@ -15,9 +15,9 @@ You are planning a big programming conference and have received many proposals w
 
 Note that depending on how you choose to complete this problem, your solution may give a different ordering or combination of talks into tracks. This is acceptable; you don’t need to exactly duplicate the sample output given here.
 
-Test input :-
+###Test input :-
 ------------
-
+```
 Writing Fast Tests Against Enterprise Rails 60min
 Overdoing it in Python 45min
 Lua for the Masses 30min
@@ -37,10 +37,10 @@ Ruby vs. Clojure for Back-End Development 30min
 Ruby on Rails Legacy App Maintenance 60min
 A World Without HackerNews 30min
 User Interface CSS in Rails Apps 30min
-
-Test output :-
+```
+###Test output :-
 -------------
-
+```
 Track 1:
 09:00AM Writing Fast Tests Against Enterprise Rails 60min
 10:00AM Communicating Over Distance 60min
@@ -67,3 +67,4 @@ Track 2:
 03:15PM Ruby vs. Clojure for Back-End Development 30min
 03:45PM A World Without HackerNews 30min
 04:15PM Networking Event
+```
