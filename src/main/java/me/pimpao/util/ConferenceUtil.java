@@ -30,6 +30,8 @@ public class ConferenceUtil {
 		try {
 			bufferedReader = new BufferedReader(new FileReader(fileName));
 			while ((strContent = bufferedReader.readLine()) != null) {
+				if (strContent.contains("//") || strContent.isEmpty())
+					continue;
 				contentFile.add(strContent);
 			}
 		} catch (IOException e) {
