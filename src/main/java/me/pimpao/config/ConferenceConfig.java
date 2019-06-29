@@ -19,8 +19,8 @@ public class ConferenceConfig {
 	
 	public static Calendar TRACK_START_TIME = ConferenceUtil.getCalendarTime(9, 0);
 	public static Calendar LUNCH_START_TIME = ConferenceUtil.getCalendarTime(12, 0);
-	public static Calendar POST_LUNCH_START_TIME = ConferenceUtil.getCalendarTime(1, 0);
-	public static Calendar NETWORKING_START_TIME = ConferenceUtil.getCalendarTime(5, 0);
+	public static Calendar POST_LUNCH_START_TIME = ConferenceUtil.getCalendarTime(13, 0);
+	public static Calendar NETWORKING_START_TIME = ConferenceUtil.getCalendarTime(17, 0);
 	
 	public static final int LUNCH_DURATION_MINUTES = 60;
 	public static final int NETWORKING_DURATION_MINUTES = 60;
